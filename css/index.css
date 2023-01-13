@@ -1,0 +1,92 @@
+/* Change the background color to black */
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the scan button */
+#scan-button {
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 10px 130px;
+}
+
+/* Style the device list items to look like buttons */
+#devices li {
+    padding: 10px;
+    text-align: center;
+    margin: 2px 60px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    background-color: #808080;
+}
+
+/* Change the background color of the device list items on hover */
+#devices li:hover {
+    background-color: #e5e5e5; /* Darker grey */
+}
+
+/* Center the h1 element */
+h1 {
+    text-align: center;
+}
+
+/* Remove the dots before the device list items */
+#devices li::before {
+    content: "";
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 23px;
+}
+
+.values{
+    margin: 50px 0px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+#tempText{
+    float:left;
+}
+
+#humidityText{
+    text-align: right;
+    margin: 0px 50px;
+}
+
+.connected{
+    color: red;
+}
+
+#statusText{
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#copyText{
+   position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#disconnect-button{
+    padding: 10px 32px;
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden {
+    display: none;
+}
